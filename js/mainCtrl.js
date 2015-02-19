@@ -39,7 +39,6 @@ app.controller('mainCtrl', function($scope, itunesService){
             Type: itunesFormattedResults.wrapperType,
           };
         });
-        console.log(songs);
       });
       
     };
